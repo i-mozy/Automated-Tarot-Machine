@@ -11,8 +11,8 @@
 #define MS1 4
 #define MS2 5
 #define EN  6 // stp, dir, MS1, MS2, EN are all for the Easy Driver
-#define LED_PIN 7 // Optional, be sure to comment this outt if you aren't going to use LEDS
-#define LED_COUNT 24
+//#define LED_PIN 7 // Optional, be sure to comment this outt if you aren't going to use LEDS
+//#define LED_COUNT 24
 #define HOME_SENSOR 8 //This is the pin for the hall effect sensor
 #define TX_PIN 9 // Arduino transmit YELLOW WIRE labeled RX on printer
 #define RX_PIN 10 // Arduino receive GREEN WIRE labeled TX on printer
