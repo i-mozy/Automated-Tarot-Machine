@@ -17,7 +17,7 @@
 #define TX_PIN 9 // Arduino transmit YELLOW WIRE labeled RX on printer
 #define RX_PIN 10 // Arduino receive GREEN WIRE labeled TX on printer
 #define BUTTON_PIN 11 // Only relavent if you wish to operate the machine without the computer attached
-#define SD_Pin 53 
+#define SD_Pin 53 // Pin for the SD card module
 
 
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRBW + NEO_KHZ800); // declare LEDS
